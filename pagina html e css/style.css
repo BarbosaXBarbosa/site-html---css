@@ -1,6 +1,8 @@
 body {
     background-color: #dfe8f2;
     font-family: Verdana;
+    max-width: 1000px;
+    margin: auto;
 }
 
 #title, .subtitle, .post_title {
@@ -31,6 +33,7 @@ a {
 
 .post_img {
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .post {
@@ -44,4 +47,13 @@ a {
 .content {
     margin: 0px;
     margin-bottom: 15px;
+    text-align: justify;
+}
+
+.contacts_list {
+    padding-left: 15px;
+}
+
+.contacts_list li a {
+    text-decoration: none;
 }
